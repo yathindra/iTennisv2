@@ -13,11 +13,13 @@
 		4008D2F216BE38DD004A152E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4008D2F016BE38DD004A152E /* InfoPlist.strings */; };
 		4008D2F416BE38DD004A152E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4008D2F316BE38DD004A152E /* main.m */; };
 		4008D2F816BE38DD004A152E /* iTennisAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4008D2F716BE38DD004A152E /* iTennisAppDelegate.m */; };
-		4008D2FA16BE38DD004A152E /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 4008D2F916BE38DD004A152E /* Default.png */; };
-		4008D2FC16BE38DD004A152E /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4008D2FB16BE38DD004A152E /* Default@2x.png */; };
-		4008D2FE16BE38DD004A152E /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4008D2FD16BE38DD004A152E /* Default-568h@2x.png */; };
 		4008D30116BE38DD004A152E /* iTennisViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4008D30016BE38DD004A152E /* iTennisViewController.m */; };
 		4008D30416BE38DD004A152E /* iTennisViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4008D30216BE38DD004A152E /* iTennisViewController.xib */; };
+		4008D31416BE391A004A152E /* Ball.png in Resources */ = {isa = PBXBuildFile; fileRef = 4008D30F16BE391A004A152E /* Ball.png */; };
+		4008D31516BE391A004A152E /* court.png in Resources */ = {isa = PBXBuildFile; fileRef = 4008D31016BE391A004A152E /* court.png */; };
+		4008D31616BE391A004A152E /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 4008D31116BE391A004A152E /* Default.png */; };
+		4008D31716BE391A004A152E /* Raquet_Green.png in Resources */ = {isa = PBXBuildFile; fileRef = 4008D31216BE391A004A152E /* Raquet_Green.png */; };
+		4008D31816BE391A004A152E /* Raquet_Yellow.png in Resources */ = {isa = PBXBuildFile; fileRef = 4008D31316BE391A004A152E /* Raquet_Yellow.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,12 +33,14 @@
 		4008D2F516BE38DD004A152E /* iTennis-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "iTennis-Prefix.pch"; sourceTree = "<group>"; };
 		4008D2F616BE38DD004A152E /* iTennisAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = iTennisAppDelegate.h; sourceTree = "<group>"; };
 		4008D2F716BE38DD004A152E /* iTennisAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iTennisAppDelegate.m; sourceTree = "<group>"; };
-		4008D2F916BE38DD004A152E /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
-		4008D2FB16BE38DD004A152E /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
-		4008D2FD16BE38DD004A152E /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		4008D2FF16BE38DD004A152E /* iTennisViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = iTennisViewController.h; sourceTree = "<group>"; };
 		4008D30016BE38DD004A152E /* iTennisViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iTennisViewController.m; sourceTree = "<group>"; };
 		4008D30316BE38DD004A152E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/iTennisViewController.xib; sourceTree = "<group>"; };
+		4008D30F16BE391A004A152E /* Ball.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Ball.png; sourceTree = "<group>"; };
+		4008D31016BE391A004A152E /* court.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = court.png; sourceTree = "<group>"; };
+		4008D31116BE391A004A152E /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		4008D31216BE391A004A152E /* Raquet_Green.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Raquet_Green.png; sourceTree = "<group>"; };
+		4008D31316BE391A004A152E /* Raquet_Yellow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Raquet_Yellow.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,10 +103,12 @@
 				4008D2EF16BE38DD004A152E /* iTennis-Info.plist */,
 				4008D2F016BE38DD004A152E /* InfoPlist.strings */,
 				4008D2F316BE38DD004A152E /* main.m */,
+				4008D30F16BE391A004A152E /* Ball.png */,
+				4008D31016BE391A004A152E /* court.png */,
+				4008D31116BE391A004A152E /* Default.png */,
+				4008D31216BE391A004A152E /* Raquet_Green.png */,
+				4008D31316BE391A004A152E /* Raquet_Yellow.png */,
 				4008D2F516BE38DD004A152E /* iTennis-Prefix.pch */,
-				4008D2F916BE38DD004A152E /* Default.png */,
-				4008D2FB16BE38DD004A152E /* Default@2x.png */,
-				4008D2FD16BE38DD004A152E /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -160,10 +166,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				4008D2F216BE38DD004A152E /* InfoPlist.strings in Resources */,
-				4008D2FA16BE38DD004A152E /* Default.png in Resources */,
-				4008D2FC16BE38DD004A152E /* Default@2x.png in Resources */,
-				4008D2FE16BE38DD004A152E /* Default-568h@2x.png in Resources */,
 				4008D30416BE38DD004A152E /* iTennisViewController.xib in Resources */,
+				4008D31416BE391A004A152E /* Ball.png in Resources */,
+				4008D31516BE391A004A152E /* court.png in Resources */,
+				4008D31616BE391A004A152E /* Default.png in Resources */,
+				4008D31716BE391A004A152E /* Raquet_Green.png in Resources */,
+				4008D31816BE391A004A152E /* Raquet_Yellow.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -291,6 +299,7 @@
 				4008D30916BE38DD004A152E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
